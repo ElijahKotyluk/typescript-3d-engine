@@ -1,0 +1,25 @@
+{
+  "name": "typescript-3d-engine",
+  "version": "0.0.0",
+  "description": "simple 3d engine.",
+  "main": "src/index.ts",
+  "author": "Elijah Kotyluk <elijah@elijahkotyluk.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc",
+    "lint": "wotan",
+    "lint:fix": "wotan --fix",
+    "test:coverage": "jest --coverage",
+    "test:unit": "jest"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@fimbul/wotan": "^0.21.1",
+    "@types/jest": "^24.0.24",
+    "@types/node": "^13.1.0",
+    "babel-jest": "^24.9.0",
+    "jest": "^24.9.0",
+    "ts-jest": "^24.2.0",
+    "typescript": "^3.7.4"
+  }
+}
