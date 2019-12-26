@@ -1,1 +1,1 @@
-console.log("3d engine");
+export { default as vertex } from "./vertex";
