@@ -40,6 +40,15 @@ describe("Vector2", () => {
         expect(cloned.x && cloned.y).toBe(0);
     });
 
+    it("copy() method", () => {
+        const v = new Vector2();
+        const copied = v.copy(new Vector2(1, 2));
+
+        expect(copied).toBeInstanceOf(Vector2);
+        expect(copied.x).toBe(1);
+        expect(copied.y).toBe(2);
+    });
+
     it("add() method", () => {
         const v = new Vector2(2, 3);
         const v2 = new Vector2(1, 3);
