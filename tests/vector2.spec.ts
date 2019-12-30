@@ -17,11 +17,11 @@ describe("Vector2", () => {
     });
 
     it("length() method", () => {
-        const v = new Vector2(2, 3);
+        const v = new Vector2(1, 0);
         const length = v.length();
 
         expect(typeof length).toBe("number");
-        expect(length).toBe(5);
+        expect(length).toBe(1);
     });
 
     it("lengthSquared() method", () => {

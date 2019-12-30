@@ -17,7 +17,7 @@ export default class Vector2 {
     };
 
     public length(): number {
-        return this.x + this.y;
+        return Math.sqrt(this.x * this.x + this.y * this.y);
     };
 
     public lengthSquared(): number {
